@@ -1,0 +1,9 @@
+package Observer_pattern2;
+
+
+public interface Publisher {
+	public void add(Observer observer);
+	public void delete(Observer observer);
+	public void notifyObserver();
+	
+}

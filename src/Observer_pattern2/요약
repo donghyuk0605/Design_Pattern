@@ -1,0 +1,15 @@
+Publisher 인터페이스
+등록,삭제 ,알림 
+
+Observer 인터페이스
+수정
+
+NewsMachine 클래스
+정보 제공 클래스
+
+AnnualSubscriber, EventSubscriber 클래스
+notifyObserver()호출하면서 수정이됨
+
+옵저버 패턴
+느슨한 결합
+1:N 1대다
