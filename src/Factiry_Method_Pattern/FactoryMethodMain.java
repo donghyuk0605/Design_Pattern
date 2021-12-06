@@ -14,7 +14,7 @@ public class FactoryMethodMain {
 		System.out.println(ChocoMilk.getName()); 
 		System.out.println(Americano.getName());
 		System.out.println(unordered.getName());
-
+//new를 통해 객체생성하지않음
 	}
 
 }
