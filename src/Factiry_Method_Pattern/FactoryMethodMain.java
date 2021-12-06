@@ -5,15 +5,15 @@ public class FactoryMethodMain {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 	
-		TypeMilkFactory typeMilkFactory = new TypeMilkFactory();
-		Milk StrawberryMilk = typeMilkFactory.createMilk("StrawberryMilk");
-		Milk ChocoMilk = typeMilkFactory.createMilk("ChocoMilk");
-		Milk WhiteMilk = typeMilkFactory.createMilk("WhiteMilk");
-		
-		System.out.println(StrawberryMilk.getName()); 
+		TypeCoffeFactory typeCoffeFactory = new TypeCoffeFactory();
+		Coffee Cafelatte = typeCoffeFactory.createMilk("Cafelatte");
+		Coffee ChocoMilk = typeCoffeFactory.createMilk("Espresso");
+		Coffee Americano = typeCoffeFactory.createMilk("Americano");
+		Coffee unordered = typeCoffeFactory.createMilk("");
+		System.out.println(Cafelatte.getName()); 
 		System.out.println(ChocoMilk.getName()); 
-		System.out.println(WhiteMilk.getName());
-
+		System.out.println(Americano.getName());
+		System.out.println(unordered.getName());
 
 	}
 
