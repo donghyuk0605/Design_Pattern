@@ -1,14 +1,11 @@
 package Factiry_Method_Pattern;
 
-public class StrawberryMilk extends Milk {
+public class unordered extends Coffee{
 
 	@Override
 	public String getName() {
 		// TODO Auto-generated method stub
-		return "StrawberryMilk";
+		return "커피를 주문해주세요";
 	}
 
-
 }
-
-
