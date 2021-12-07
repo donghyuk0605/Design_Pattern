@@ -5,23 +5,23 @@ public class TypeCoffeFactory extends Cofffefactory {
 	@Override
 	public Coffee createMilk(String type) {
 		// TODO Auto-generated method stub
-		Coffee milk;
+		Coffee coffee;
 		switch (type){
 		case "Espresso":
-			milk = new Espresso();
+			coffee = new Espresso();
 			break;
 			
 		case "Cafelatte":
-			milk = new Cafelatte();
+			coffee = new Cafelatte();
 			break;
 		case "Americano":
-			milk = new Americano();
+			coffee = new Americano();
 			break;	
 		default:
-			milk = new unordered();
+			coffee = new unordered();
 			
 		}
-		return milk;
+		return coffee;
 	}
 
 }
