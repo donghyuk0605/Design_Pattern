@@ -10,4 +10,6 @@ Cafelatte <-coffee
 Espresso <-coffee
 메인클래스
 FactoryMethodMain
-
+직접객체생성 X 팩토리메소드를 통해 대신객체생성
+결합도를 낮춰서 유지보수가 용이함.
+모든 하위 클래스들이 공유/재사용
