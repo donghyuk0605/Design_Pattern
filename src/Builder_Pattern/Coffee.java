@@ -2,16 +2,16 @@ package Builder_Pattern;
 
 public class Coffee {
 	
-   //�ʼ�����
-	
+   //필수정보
     private String name ;
     private int price;
     
+    //선택정보
     private boolean ICE_YN;
     private boolean MILK_YN;
 	
- 
-
+    
+    //getter
     public String getName() {
 		return name;
 	}
@@ -36,7 +36,7 @@ public class Coffee {
         this.MILK_YN=builder.MILK_YN;
     }
 	
-
+	//빌더 부분 내장클래스
     public static class CoffeeBuilder{
  
  
@@ -51,13 +51,13 @@ public class Coffee {
             this.price=price;
         }
  
-        public CoffeeBuilder ICE_YN(boolean ICE_YN) {
+        public CoffeeBuilder setICE_YN(boolean ICE_YN) {
             this.ICE_YN = ICE_YN;
             return this;
         }
         
  
-        public CoffeeBuilder MILK_YN(boolean MILK_YN) {
+        public CoffeeBuilder setMILK_YN(boolean MILK_YN) {
             this.MILK_YN = MILK_YN;
             return this;
         }
