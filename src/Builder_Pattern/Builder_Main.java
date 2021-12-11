@@ -9,11 +9,11 @@ public class Builder_Main {
 				.setMILK_YN(false)
 				.build();
 		Coffee hotCafelatte= new Coffee.CoffeeBuilder("카페라떼", 3000)
-				.setICE_YN(false)
 				.setMILK_YN(true)
 				.build();
-		System.out.println(iceAmericano.getName()+iceAmericano.getPrice());
-		System.out.println(hotCafelatte.getName()+hotCafelatte.getPrice());
+		System.out.println(iceAmericano.getName()+iceAmericano.getPrice()+iceAmericano.isICE_YN()+iceAmericano.isMILK_YN());
+		System.out.println(hotCafelatte.getName()+hotCafelatte.getPrice()+hotCafelatte.isICE_YN()+hotCafelatte.isMILK_YN());
+		
 	}
 
 }

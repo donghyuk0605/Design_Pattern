@@ -7,8 +7,8 @@ public class Coffee {
     private int price;
     
     //선택정보
-    private boolean ICE_YN;
-    private boolean MILK_YN;
+    private boolean ICE_YN=false;
+    private boolean MILK_YN=false;
 	
     
     //getter
