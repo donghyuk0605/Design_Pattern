@@ -1,5 +1,5 @@
 package Decorator_Pattern;
 
-public interface CoffeeCompomemt {
+public interface CoffeeComponent {
 	public String Ingredients();
 }
