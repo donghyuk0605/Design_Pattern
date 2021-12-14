@@ -1,1 +1,18 @@
 요약
+커피를 재료별로 조합에 따로 결과를 나오게하고싶다.
+기본적으로 커피는 에스프레소가 있으며 부가적인재료는 물과 우유이다
+
+인터페이스
+CoffeeComponent
+
+클래스
+BaseCoffeeComponent <- CoffeeComponent
+Decorator <- CoffeeComponent
+Milkadd <-Decorator
+Wateradd <-Decorator
+
+메인클래스
+DecoratorMain
+
+장점: 객체에 동적으로 기능 추가가 간단.
+단점:객체선언한 객체에 생성자안에 계속 생성자를 넣어야한다
