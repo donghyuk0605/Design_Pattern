@@ -1,0 +1,20 @@
+요약
+예시는 압축으로 했음.
+압축프로그램 윈집은 ZIP 확장자를 지원.
+압축프로그램 알집은 EGG 확장자를 지원.
+알집으로 압축을 풀려면 FormatAdapter가 필요함(중간에 컨버터가 필요함).
+
+인터페이스
+ALZip
+WinZip
+
+클래스
+EGG <- ALZip
+Zip <- WinZip
+FormatAdapter <- ALZip
+
+메인클래스 
+AdapterMain
+
+클래스에서 다른 인터페이스로 변환할대 사용,
+호환성이 맞지않은 클래스의 연관관계를 사용할대 유용한 패턴
