@@ -1,0 +1,21 @@
+요약
+축구선수가 주발을 사용하여 슛팅과 패스를 할수있음.
+
+주발(자주사용하는 발)
+RightFoot(오른발),LeftFoot(왼발)
+행위
+Shoot(슛),Pass(패스)
+
+인터페이스
+Foot
+
+클래스
+LeftFoot
+RightFott
+SoccerPlayer
+메인클래스
+Strategy_Main
+
+장점: 전략을 쉽게 바뀔수 있는 패턴,
+행위들을 캡슐화 동적으로 자유롭게 바꿀수있음.
+단점:객체인자를 일부를 사용되자않을수있음,
