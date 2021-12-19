@@ -1,0 +1,1 @@
+"# newDesign_Pattern" 
