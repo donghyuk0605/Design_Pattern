@@ -1,17 +1,19 @@
 요약
-축구선수가 주발을 사용하여 슛팅과 패스를 할수있음.
+축구선수가 킥을 사용하여 슛팅과 패스를 할수있음.
 
-주발(자주사용하는 발)
-RightFoot(오른발),LeftFoot(왼발)
+킥(도구)
+HeelKick, RabonaKick, ValleyKick
+
 행위
 Shoot(슛),Pass(패스)
 
 인터페이스
-Foot
+Kick
 
 클래스
-LeftFoot <-Foot
-RightFott <-Foot
+ValleyKick <-Kick
+HeelKick <-Kick
+RabonaKick <-Kick
 SoccerPlayer
 메인클래스
 Strategy_Main
