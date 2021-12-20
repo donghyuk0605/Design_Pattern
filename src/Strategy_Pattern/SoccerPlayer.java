@@ -1,18 +1,18 @@
 package Strategy_Pattern;
 
 public class SoccerPlayer {
-	private Foot foot;
+	private Kick skill;
 
 
-	public void setFoot(Foot foot) {
-		this.foot = foot;
+	public void setFoot(Kick skill) {
+		this.skill = skill;
 	}//주발 셋팅
 	
 	public void Shoot() {
-		foot.Shoot();
+		skill.Shoot();
 	}
 	
 	public void Pass() {
-		foot.Pass();
+		skill.Pass();
 	}
 }
