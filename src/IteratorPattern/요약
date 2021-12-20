@@ -1,21 +1,25 @@
-인터페이스: interator
 
-인터페이스: Aggregate
 
-메인클래스:IteratorMain
+예시 : 축구 이적시장의 마켓을 예시로 했음, 영입명단 추가와 삭제를 예를 들었음.
 
-클래스: SoccerPlayer 축구선수 정보를 저장하는 클래스
+인터페이스: interator /요소를 순서대로 검색해가는 인터페이스
 
-클래스 : TransferMarketList 실질적인 연산을 하는 클래스
+인터페이스: Aggregate /(집합체) interator 역활에 대한 인터페이스
+
+메인클래스:IteratorMain/
+
+클래스: SoccerPlayer / 축구선수 정보를 저장하는 클래스
+
+클래스 : TransferMarketList / 집합체의 대한 실제 구현된곳 
 함수:
 TransferMarketList
 트랜스퍼마켓의 베열의 크기를 지정하는 생성자
-addSoccerPlayer: SoccerPlayer 객체의 매개 변수를 받아 
+addSoccerPlayer: SoccerPlayer / 객체의 매개 변수를 받아 
 입력값을 넣은 함수 
 getLength:랭스의 크기
 removeSoccerPlayer : 사커플레이어 리셋은반영하기위한 클래스 
 
-클래스 : TransferMarketListIterator 이터레이터 역활을 하는 클래스
+클래스 : TransferMarketListIterator
 함수:
 TransferMarketListIterator
 hasNext
