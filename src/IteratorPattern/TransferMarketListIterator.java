@@ -20,13 +20,12 @@ public class TransferMarketListIterator implements Iterator {
 		SoccerPlayer soccerPlayer = transferMarketList.getSoccerPlayer(index);
 		index++;
 		return soccerPlayer;
-		//반복문에서 다음 값 가져오기
+		//다음 요소의 값을 가져오는 역활
 	}
 
 	@Override
 	public void remove() {
 		transferMarketList.removeSoccerPlayer(index);
-		//인덱스값 보내기 
 		
 	}
 
