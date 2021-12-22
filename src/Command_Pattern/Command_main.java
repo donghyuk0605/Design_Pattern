@@ -14,6 +14,9 @@ public class Command_main {
 		fifaGame.setCommand(ShootCommand);
 		fifaGame.action();
 		
+		fifaGame.setCommand(PassCommand);
+		fifaGame.action();
+		
 		
 
 	}
