@@ -9,7 +9,7 @@ public class RainbowKickCommand implements Command {
 
 	@Override
 	public void execute() {
-		rainbowKick.button();
+		rainbowKick.buttonB();
 
 	}
 

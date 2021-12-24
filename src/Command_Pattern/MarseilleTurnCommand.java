@@ -9,7 +9,7 @@ public class MarseilleTurnCommand implements Command {
 	
 	@Override
 	public void execute() {
-		marseilleTurn.button();
+		marseilleTurn.buttonA();
 
 	}
 
